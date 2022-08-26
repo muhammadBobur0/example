@@ -1,0 +1,147 @@
+.user-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+
+.user-page .user-page-link {
+  width: 297px;
+  display: flex;
+  align-items: center;
+  padding: 23px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #152540;
+  text-decoration: none;
+  background: #F3F6F9;
+  border-radius: 4px 4px 0px 0px;
+  margin-right: 4px;
+  margin-bottom: 0;
+}
+
+
+.user-span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background: #E5EAEE;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 9px;
+  color: #3699FF;
+}
+
+
+.boxses {
+  display: flex;
+  justify-content: center;
+}
+
+
+.user-content {
+  padding: 86px 0px;
+}
+
+.div-flex .active {
+  background-color: #fff;
+}
+
+.active .user-span {
+  color: #FFF;
+  background: #152540;
+}
+
+.content {
+  margin: 0px auto;
+}
+
+.div-flex {
+  display: flex;
+  align-items: center;
+}
+
+.user-content {
+  padding-bottom: 0;
+}
+
+.Language {
+  width: 708px;
+  padding: 12px 20px;
+  display: block;
+  background: #F3F6F9;
+  border-radius: 4px;
+  border: none;
+}
+
+.Settings-texts {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #212121;
+  
+}
+
+.thema-box {
+  margin-top: 10px;
+}
+
+
+
+.thema-box .label {
+  margin-bottom: 5px;
+}
+
+.thema-input {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  background: #3699FF;
+  width: 28px;
+  height: 28px;
+  display: block;
+  border-radius: 50%;
+}
+
+.thema {
+  position: relative;
+  background: #F3F6F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 34px;
+  width: 87px;
+  height: 30px;
+  display: block;
+}
+
+
+.radio:checked  ~  .thema > .thema-input {
+  left: 58px;
+}
+
+
+.black {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.Changes {
+  display: block;
+  margin-left: auto;
+  width: 142px;
+  padding: 12px 0px;
+  text-align: center;
+  background: #152540;
+  border-radius: 4px;
+  margin-top: 32px;
+  color: #FFF;
+}
+

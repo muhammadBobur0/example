@@ -1,0 +1,88 @@
+.header{
+  padding: 22px 0px;
+  border-bottom: 1px solid #ffffff1a;
+}
+
+.iner{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 131px;
+}
+
+
+.photo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.nav .active {
+  padding-bottom: 38px;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.sigin-button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.logins {
+  position: absolute;
+  bottom: -135px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 20px 10px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.header-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-link {
+  text-decoration: none;
+  color: currentColor;
+  margin-right: 43px;
+}
+
+
+.header-list li:nth-child(5) a{
+  margin-right: 0;
+}
+
+
+.user-page-link{
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.user-page-link:nth-child(3){
+  margin-bottom: 0px;
+}
+
+
+.none{
+  display: none;
+}
+
+.block {
+  display: block;
+}

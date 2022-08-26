@@ -1,0 +1,85 @@
+.sigin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+
+.foto {
+  height: 100vh;
+  background-color: #c9ac8ced;
+  display: flex;
+  width: 50%;
+}
+
+.foto-iteam {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin:  auto;
+}
+
+
+.form {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.form-box {
+  margin: auto 0px;
+}
+
+.tittle {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: left;
+  line-height: 51px;
+}
+
+.sign {
+  color: #549FF9;
+  cursor: pointer;
+}
+
+.send {
+  padding: 5px 20px;
+  background: #152540;
+  border-radius: 99px;
+  color: #fff;
+  width: 328px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.text {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.input {
+  display: block;
+  background: #FFFFFF;
+  border: 1px solid #B4B4BB;
+  border-radius: 10px;
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #AAAAAA;
+  padding-top: 17px ;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  width: 330px;
+}

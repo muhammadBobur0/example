@@ -1,0 +1,251 @@
+
+.single-page-book {
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 0px;
+}
+
+
+.single-page-img {
+  margin-right: 46px;
+}
+
+.single-page-book {
+  background-image: url(../../assets/images/ornament.png);
+  background-size: 1178px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 630px) calc(50% + 850px);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.flex-text {
+  text-decoration: none;
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: #C9AC8C;
+  margin: 0;
+}
+
+.flex-link {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;  
+  color: #FFFFFF;
+  margin-left: auto;
+}
+
+.quete {
+  margin-bottom: 72px;
+}
+
+.img-book {
+  display: flex;
+  align-items: center;
+  margin-bottom: 51px;
+}
+
+.book-title {
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  color: #C9AC8C;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.pages {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff99;
+  margin-bottom: 20px;
+}
+
+
+.iteam-tittle {
+  max-width: 145px;
+}
+
+.pages span {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+
+.border {
+  border: 1px solid #c9ac8c99;
+  width: 100%;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.single-page-img {
+  width: 510px;
+}
+
+.book-bio {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF 80%;
+  margin-bottom: 47px;
+  max-width: 695px;
+}
+
+.prise-iteam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 26px;
+}
+
+.order {
+  margin-left: auto;
+  width: 200px;
+  height: 48px;
+  text-align: center;
+  background: #C9AC8C;
+  font-family: 'Steinbeck';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3C2710;
+}
+
+.icon-text {
+  margin: 0;
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff99;
+}
+
+.links {
+  text-decoration: none;
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff99;
+  margin-right: 60px;
+}
+
+.links-box{
+  margin-bottom: 41px;
+}
+
+
+.blackquet::before {
+  position: absolute;
+  top: -32px;
+  width: 77px;
+  height: 77px;
+  background-image: url(../../assets/images/bl.svg);
+  background-repeat: no-repeat;
+  background-size: 77px;
+  background-position: center;
+  content: '';
+}
+
+
+.quete {
+  display: flex;
+}
+
+.blackquet {
+  position: relative;
+  padding: 45px 40px;
+  padding-right: 102px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #1C1C1C;
+  max-width: 708px;
+  background-image: url(../../assets/images/sing.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: calc(50% + 240px) calc(50% - -50px);
+  margin-right: 31px;
+}
+
+
+
+.blockquote {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.links-box .active {
+  color: #C9AC8C;
+}
+
+.icon {
+  width: 18px;
+  height: 20px;
+  margin: 0px auto;
+  margin-bottom: 8px;
+}
+
+.prise {
+  display: flex;
+  align-items: center;
+}
+
+.information-text {
+  display: block;
+  width: 135px;
+}
+
+.information img {
+  margin-right: 37px;
+}
+
+.information-text {
+  margin-right: 11px;
+}
+
+.book-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+

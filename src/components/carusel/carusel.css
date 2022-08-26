@@ -1,0 +1,48 @@
+.carusel{
+  padding-top: 55px;
+}
+
+.posion {
+  position: relative;
+}
+
+.slide {
+  padding: 45px 87px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-image: url(../../assets/images/carusel.png);
+  background-size:  100% 347px;  
+  background-repeat: no-repeat;
+  border-radius: 21px;
+}
+
+.carusel-img {
+  width: 100%;
+  height: 347px;
+  border-radius: 21px;
+}
+
+.slide-text {
+  width: 337px;
+  font-family: 'Rotterburg Stylish FREE';
+  font-weight: 400;
+  font-size: 61px;
+  line-height: 67px;
+  color: #C9AC8C;
+  margin: 0;
+}
+
+
+.swiper-pagination-bullet {
+  width: 58px !important;
+  height: 3px !important;
+  border-radius: 10px !important;
+  background: #FFFFFF !important; 
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 68px !important;
+  left: 5px !important;
+  width: 32% !important;
+}

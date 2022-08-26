@@ -1,0 +1,53 @@
+.posion {
+  margin-bottom: 155px;
+}
+
+.category-text {
+  margin: 0;
+  text-align: center;
+  font-family: 'Rotterburg Stylish FREE';
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+  color: #C9AC8C;
+  margin-bottom: 31px;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.catogory-content {
+  width: 100%;
+  padding-top: 52px;
+  padding-bottom: 200px;
+}
+
+.category-link {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff99;
+  text-decoration: none;
+  margin-right: 69px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.category-link:nth-child(4){
+  margin-right: 0px;
+}
+
+.category .active {
+  color: #C9AC8C;
+}
