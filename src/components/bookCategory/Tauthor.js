@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Iteam from '../iteam/Iteam';
 import { IteamBook } from '../IteamBook/IteamBook';
 
 const Timurid = () => {
