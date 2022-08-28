@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
-
 import { UseAuth } from '../../hook/useAuth';
+import { UseLeang } from '../../hook/useLeang';
+import { text } from '../../context/useleang';
 
 const Security = () => {
 	const [data, setData] = useState({});
 	const { token } = UseAuth();
+	const { leng } = UseLeang();
 
 	const [error, setError] = useState(false);
 
@@ -61,7 +63,7 @@ const Security = () => {
 		<div className='accaunt-box'>
 			<div className='content'>
 				{error ? <h2 className='eror'>parol yoki login xato</h2> : ''}
-				<h2 className='put-text'>Change Or Recover Your Password:</h2>
+				<h2 className='put-text'>{text[leng].Password}</h2>
 				<form
 					onSubmit={(evt) => {
 						Handleformsubmit(evt);

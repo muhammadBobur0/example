@@ -145,3 +145,77 @@
   color: #FFF;
 }
 
+ .black .div-flex .active {
+  background-color: #1E1E1E;
+  color: #FFF;
+}
+
+.black .put-text {
+  color: #FFF;
+}
+
+.black .nav .active {
+  padding-bottom: 38px;
+  border-bottom: 2px solid #1E1E1E;
+}
+
+.black .category-link {
+  color: #000;
+}
+
+.black .category .active {
+  color: #C9AC8C;
+}
+
+.black .pages{
+  color: #000;
+}
+
+.black .pages > span {
+  color: #000;
+}
+
+.black .order {
+  border: none;
+}
+
+.black .links {
+  color: #000;
+}
+
+.author-bio {
+  flex-grow: 1;
+}
+
+.author-box-img {
+  width: 585px;
+  margin-right: 97px;
+}
+
+.img-book {
+  align-items: flex-start;
+}
+
+.black .links-box .active {
+  color: #C9AC8C;
+}
+
+.black .author-bio-text {
+  color: #000;
+}
+
+.black .Creativity-text {
+  color: #000;
+}
+
+.black .birth {
+  color: #000;
+} 
+
+.black .death {
+  color: #000;
+}
+
+.black .sigle-carusel-link {
+  color: #000;
+}

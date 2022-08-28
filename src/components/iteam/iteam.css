@@ -88,3 +88,19 @@
   height: 132px;
   border-radius: 15px 15px 0px 0px;
 }
+
+.black .user-page {
+  background-color: #1E1E1E;
+}
+
+.black .Settings-texts {
+  color: #fff;
+}
+.black .label {
+  color: #fff;
+}
+
+.black .Changes {
+  border: #fff;
+}
+

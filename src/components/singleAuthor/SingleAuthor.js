@@ -18,7 +18,10 @@ const SingleAuthor = () => {
 					Authorization: token,
 				},
 			})
-			.then((res) => setAutor(res.data))
+			.then((res) => {
+				console.log(res.data);
+				setAutor(res.data);
+			})
 			.catch((err) => console.log(err));
 	}, [id]);
 

@@ -8,7 +8,7 @@ export const ThemaProvayder = ({ children }) => {
 
 	useEffect(() => {
 		window.localStorage.setItem('thema', thema);
-		document.querySelector('body').classList.add(thema);
+		document.querySelector('body').className = thema;
 	}, [thema]);
 
 	const data = {

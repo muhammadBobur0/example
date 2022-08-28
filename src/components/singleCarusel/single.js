@@ -4,7 +4,6 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 import axios from 'axios';
 import { UseAuth } from '../../hook/useAuth';
-import { useParams } from 'react-router-dom';
 
 const SingleCaru = () => {
 	const [book, setBook] = useState([]);

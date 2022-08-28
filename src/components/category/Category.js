@@ -16,16 +16,16 @@ const Category = () => {
 			<h2 className='category-text'>{text[leng].Asosiy}</h2>
 			<div className='category'>
 				<NavLink className={'category-link'} to={'/'}>
-					Temuriylar davri{' '}
+					{text[leng].temuriy}{' '}
 				</NavLink>
 				<NavLink className={'category-link'} to={'Jadid'}>
-					Jadid adabiyoti{' '}
+					{text[leng].Jadid}{' '}
 				</NavLink>
 				<NavLink className={'category-link'} to={'Sovet'}>
-					Sovet davri{' '}
+					{text[leng].sovet}{' '}
 				</NavLink>
 				<NavLink className={'category-link'} to={'Mustaqillik'}>
-					Mustaqillik davri{' '}
+					{text[leng].mustqali}{' '}
 				</NavLink>
 			</div>
 			<div className='catogory-content'>

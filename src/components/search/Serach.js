@@ -26,7 +26,7 @@ const Search = () => {
 					<input
 						className='search'
 						ref={serach}
-						placeholder='Adiblar, kitoblar, audiolar, maqolalar...'
+						placeholder={text[leng].input}
 						type='text'
 						name=''
 						id=''

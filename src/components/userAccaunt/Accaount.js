@@ -4,8 +4,11 @@ import axios from 'axios';
 import Userfoto from '../../assets/images/use.png';
 import Foto from '../../assets/images/foto.svg';
 import { UseAuth } from '../../hook/useAuth';
+import { UseLeang } from '../../hook/useLeang';
+import { text } from '../../context/useleang';
 
 const Accaunt = () => {
+	const { leng } = UseLeang();
 	const [data, setData] = useState({});
 	const { token } = UseAuth();
 
@@ -71,7 +74,7 @@ const Accaunt = () => {
 				</label>
 			</div>
 			<div className='content'>
-				<h2 className='put-text'>My profile</h2>
+				<h2 className='put-text'>{text[leng].myprofil}</h2>
 				<form
 					onSubmit={(evt) => {
 						Handleformsubmit(evt);
