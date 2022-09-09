@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import './singleAuthor.css';
 import { UseAuth } from '../../hook/useAuth';
 import SingleCarusel from '../singleCarusel/SingleCarusel';
@@ -10,19 +10,24 @@ const SingleAuthor = () => {
 	const [autors, setAutor] = useState();
 	const { token } = UseAuth();
 	const { id } = useParams();
+	const loaction = useNavigate();
 
 	useEffect(() => {
-		axios
-			.get(`https://book-service-layer.herokuapp.com/author/authorId/${id}`, {
-				headers: {
-					Authorization: token,
-				},
-			})
-			.then((res) => {
-				console.log(res.data);
-				setAutor(res.data);
-			})
-			.catch((err) => console.log(err));
+		if (token) {
+			axios
+				.get(`https://book-service-layer.herokuapp.com/author/authorId/${id}`, {
+					headers: {
+						Authorization: token,
+					},
+				})
+				.then((res) => {
+					console.log(res.data);
+					setAutor(res.data);
+				})
+				.catch((err) => console.log(err));
+		} else {
+			loaction('/sigin');
+		}
 	}, [id]);
 
 	return (

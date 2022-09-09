@@ -1,6 +1,13 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { NavLink, Routes, Route, useParams, Link } from 'react-router-dom';
+import {
+	NavLink,
+	Routes,
+	Route,
+	useParams,
+	Link,
+	useNavigate,
+} from 'react-router-dom';
 import { UseAuth } from '../../hook/useAuth';
 import './bookSingle.css';
 import Vector from '../../assets/images/pastga.svg';
@@ -16,16 +23,20 @@ export const BookSingle = () => {
 	const { token } = UseAuth();
 	const [book, setBook] = useState({});
 	const [information, setInformation] = useState(true);
-
+	const location = useNavigate();
 	useEffect(() => {
-		axios
-			.get(`https://book-service-layer.herokuapp.com/book/bookId/${id}`, {
-				headers: {
-					Authorization: token,
-				},
-			})
-			.then((res) => setBook(res.data))
-			.catch((err) => console.log(err));
+		if (token) {
+			axios
+				.get(`https://book-service-layer.herokuapp.com/book/bookId/${id}`, {
+					headers: {
+						Authorization: token,
+					},
+				})
+				.then((res) => setBook(res.data))
+				.catch((err) => console.log(err));
+		} else {
+			location('/sigin');
+		}
 	}, [id]);
 
 	return (
